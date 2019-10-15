@@ -11,6 +11,9 @@ if m > n:
 elif m == n:
     output = (m // n)
 
+elif (m // n) == 0:
+    output = m // n
+    
 else:
     ouput = (m // n) + 1
 
