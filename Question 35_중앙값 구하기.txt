@@ -1,0 +1,14 @@
+35. 중앙값 구하기
+
+def finding(x):
+    n = len(x)
+    if n % 2 == 1:
+        result = x[int((n-1)/2)]
+
+    else:
+        result = (x[int(n/2)-1] + x[int(n/2)]) / 2
+
+    return result
+
+list1 = [int(x) for x in input().split()]
+print(int(finding(list1)))

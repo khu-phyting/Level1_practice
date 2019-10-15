@@ -1,0 +1,11 @@
+38. 각 자릿수의 합을 구할 수 있나요?
+
+num = input('수 입력 : ')
+
+sum = 0
+
+for i in range(0, (len(num))):
+    sum = sum + int(num[i])
+
+print(sum)
+

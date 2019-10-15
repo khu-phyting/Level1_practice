@@ -1,0 +1,10 @@
+34. 평균 구하기
+
+list1 = input().split()
+
+sum = 0
+
+for x in list1:
+    sum += int(x)
+
+print(int(sum/len(list1)))

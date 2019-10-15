@@ -1,0 +1,12 @@
+36. 홀수와 짝수의 개수 구하기
+
+subj = list(map(int,input().split()))
+odd=0
+even=0
+
+for i in subj:
+    if i % 2 == 0:
+        even += 1
+    else:
+        odd += 1
+print('= 홀수:',odd, '개, \t짝수:',even, '개')
